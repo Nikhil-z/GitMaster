@@ -1,6 +1,7 @@
 package com.learning.gitmaster
 
 import android.os.Bundle
+import android.widget.Toast
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
@@ -26,5 +27,7 @@ class MainActivity : AppCompatActivity() {
         val nikhil = "I have made this change "
 
         val riyas = "king is back "
+
+        val forsecond = "keep smile .."
     }
 }
