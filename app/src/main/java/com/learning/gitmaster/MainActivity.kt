@@ -1,6 +1,7 @@
 package com.learning.gitmaster
 
 import android.os.Bundle
+import android.widget.Toast
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
@@ -9,6 +10,7 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 
 class MainActivity : AppCompatActivity() {
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -24,5 +26,11 @@ class MainActivity : AppCompatActivity() {
         navView.setupWithNavController(navController)
 
         val nikhil = "I have made this change "
+
+        val sarath = "you are"
+
+        val riyas = "king is back "
+
+        val forsecond = "keep smile .."
     }
 }
