@@ -11,6 +11,7 @@ import androidx.navigation.ui.setupWithNavController
 
 class MainActivity : AppCompatActivity() {
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -25,6 +26,8 @@ class MainActivity : AppCompatActivity() {
         navView.setupWithNavController(navController)
 
         val nikhil = "I have made this change "
+
+        val sarath = "you are"
 
         val riyas = "king is back "
 
