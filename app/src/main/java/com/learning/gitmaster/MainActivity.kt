@@ -24,5 +24,7 @@ class MainActivity : AppCompatActivity() {
         navView.setupWithNavController(navController)
 
         val nikhil = "I have made this change "
+
+        val riyas = "king is back "
     }
 }
